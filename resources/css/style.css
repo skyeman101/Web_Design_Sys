@@ -43,7 +43,7 @@
   h1 {
       font-family: Creepster, cursive;
       display: block;
-      font-size: 2em;
+      font-size: 3em;
       margin-block-start: 0.67em;
       margin-block-end: 00.67em;
       margin-inline-start: 0px;
@@ -53,9 +53,10 @@
   }
 
   h2 {
-    color: #E3DAC9;
+    color: #660000;
     font-family: oswald, sans-serif;
     font-weight: 700;
+    font-size: 2em;
   }
 
   .container {
@@ -128,4 +129,10 @@
     color: #E3DAC9;
     font-family: oswald, sans-serif;
     font-weight: 700;
+  }
+
+  .text-panel {
+    color: #E3DAC9;
+    font-family: oswald, sans-serif;
+    font-weight: 200;
   }
