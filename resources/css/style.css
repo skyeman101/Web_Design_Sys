@@ -34,6 +34,11 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
 
+  body {
+      background-color: black;
+      margin: 0 10%;
+  }
+
   h1 {
       font-family: Creepster, cursive;
       display: block;
@@ -42,5 +47,82 @@
       margin-block-end: 00.67em;
       margin-inline-start: 0px;
       margin-inline-end: 0px;
-      font-weight: bold;
+      text-transform: capitalize;
+      color: #660000;
+  }
+
+  h2 {
+    color: #E3DAC9;
+    font-family: oswald, sans-serif;
+    font-weight: 700;
+  }
+
+  .container {
+      border: 5px solid #660000;
+      border-radius: 10px;
+      padding: 10px;
+      margin: 10px auto;
+  }
+
+  .color-panel {
+      border: 2px solid #E3DAC9;
+      border-radius: 5px;
+      display: inline-block;
+      width: 32%;
+      text-align: center;
+      margin: 20px auto;
+      min-height: 100px;
+  }
+
+  .black {
+    color: #E3DAC9;
+    font-family: oswald, sans-serif;
+    font-weight: 200;
+  }
+
+  .blood-red {
+      background-color: #660000;
+      color: #E3DAC9;
+      font-family: oswald, sans-serif;
+      font-weight: 200;
+  }
+
+  .bone {
+      background-color: #E3DAC9;
+      color: black;
+      font-family: oswald, sans-serif;
+      font-weight: 200;
+  }
+  
+  .font-panel {
+        width: 45%;
+        display: inline-block;
+  }
+  .creepster {
+    font-family: Creepster, cursive;
+    color: #E3DAC9;
+  }
+
+  .font-label {
+    color: #E3DAC9;
+    font-family: oswald, sans-serif;
+    font-weight: 700;
+  }
+
+  .extra-light {
+    color: #E3DAC9;
+    font-family: oswald, sans-serif;
+    font-weight: 200;
+  }
+
+  .medium {
+    color: #E3DAC9;
+    font-family: oswald, sans-serif;
+    font-weight: 500;
+  }
+
+  .bold {
+    color: #E3DAC9;
+    font-family: oswald, sans-serif;
+    font-weight: 700;
   }
